@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polixer | Impressum</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .legal-container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: rgba(30, 30, 45, 0.8);
+            border-radius: 10px;
+            line-height: 1.6;
+        }
+        .legal-title {
+            color: var(--primary);
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .contact-box {
+            background: rgba(0,0,0,0.2);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+        }
+    </style>
+</head>
+    <!-- Language Toggle -->
+    <div class="language-toggle">
+        <button class="language-btn" id="languageToggle">
+            <i class="fas fa-globe"></i>
+            <span>DE</span>
+        </button>
+    </div>
+
+    <!-- Hamburger Menu -->
+    <div class="hamburger-menu">
+        <i class="fas fa-bars menu-icon"></i>
+    </div>
+
+    <div class="menu-overlay">
+        <a href="index.html" data-i18n="home">Home</a>
+        <a href="bewerben.html" data-i18n="apply">Bewerben</a>
+        <a href="discord.html" data-i18n="discord">Discord</a>
+        <a href="tiktok.html" data-i18n="tiktok">TikTok</a>
+        <a href="wiki.html" data-i18n="wiki">Wiki</a>
+        <a href="team.html" data-i18n="team">Team</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="logo-container">
+            <img src="logo.png" alt="Polixer Network" class="logo" id="logo">
+        </div>
+        
+        <h1 data-i18n="title">Polixer Network</h1>
+        <p data-i18n="subtitle">Ein einzigartiges Minecraft-Erlebnis</p>
+        
+        <!-- Action Buttons Container -->
+        <div class="action-buttons">
+            <!-- Discord Button -->
+            <a href="https://discord.gg/deinlink" class="action-btn discord-btn" id="discordBtn">
+                <i class="fab fa-discord"></i>
+                <span>Discord</span>
+                <div class="wave"></div>
+            </a>
+            
+            <!-- Server IP Button -->
+            <button class="action-btn ip-btn" id="ipBtn">
+                <i class="fas fa-server"></i>
+                <span class="ip-text">mc.polixer.de</span>
+                <i class="far fa-copy copy-icon"></i>
+            </button>
+            
+            <!-- Player Count Button -->
+            <button class="action-btn players-btn" id="playersBtn">
+                <i class="fas fa-users"></i>
+                <span class="player-count" id="onlinePlayers">0</span>
+                <span>online</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Impressum Content -->
+    <main class="legal-container">
+        <h1 class="legal-title">Impressum</h1>
+        
+        <h2>Offenlegung gemäß § 25 Mediengesetz (Österreich)</h2>
+        <div class="contact-box">
+            <p>
+                <strong>Medieninhaber und Verantwortlicher:</strong><br>
+                Philipp Zinhobl<br>
+                Hollunderweg 7<br>
+                4631 Krenglbach<br>
+                Österreich
+            </p>
+            <p>
+                <i class="fas fa-phone"></i> Telefon: +43 677 62863520<br>
+                <i class="fas fa-envelope"></i> E-Mail: kontakt@polixer.net
+            </p>
+        </div>
+
+        <h2>Haftungsausschluss</h2>
+        <p>
+            Diese Website ist ein privates Fanprojekt und steht in keiner Verbindung zu Mojang Studios oder Microsoft.
+            "Minecraft" ist eine eingetragene Marke von Mojang AB.
+        </p>
+
+        <h2>Urheberrecht</h2>
+        <p>
+            Alle selbst erstellten Inhalte sind urheberrechtlich geschützt. 
+            Die Weiterverwendung bedarf unserer schriftlichen Zustimmung.
+        </p>
+
+        <p><em>Stand: Juli 2025</em></p>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <h3 data-i18n="moreLinks">WEITERE LINKS</h3>
+                <a href="index.html" data-i18n="home">Home</a>
+                <a href="team.html" data-i18n="team">Team</a>
+            </div>
+            
+            <div class="footer-about">
+                <h3 data-i18n="historyTitle">POLIXER'S GESCHICHTE</h3>
+                <p data-i18n="historyText">Polixer wurde 2023 als Citybuild-Projekt ins Leben gerufen, um der Community eine schönes und einzigartiges Spielerlebnis bieten zu können! Lyndara erhält regelmäßig Updates und wird mit Liebe erweitert!</p>
+            </div>
+            
+            <div class="footer-social">
+                <h3 data-i18n="socialMedia">SOCIAL MEDIA</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <a href="impressum.html" data-i18n="imprint">Impressum</a>
+            <a href="datenschutz.html" data-i18n="privacy">Datenschutz</a>
+            <p>© 2025 Polixer.de</p>
+            <p data-i18n="disclaimer">Polixer.de steht in keiner Verbindung zu Mojang oder Minecraft.</p>
+            <p data-i18n="madeBy">Made with ❤️ by Philipp Zinhobl & Finn09z.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="i19.js"></script>
+</body>
+</html>
